@@ -7,6 +7,6 @@ WHEN (NEW.quantity < 2)
 DECLARE 
     
 BEGIN 
-   dbms_output.put_line('Only one product remaining before out of stock!'); 
+   dbms_output.put_line('Only one product remaining before getting out of stock!'); 
 END; 
 / 
